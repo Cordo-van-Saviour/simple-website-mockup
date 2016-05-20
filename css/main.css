@@ -641,3 +641,151 @@ img.mid-content__underlay .underlay--triangle {
     float: right;
   }
 }
+@media (max-width: 660px) {
+  .header {
+    margin-top: -20px;
+  }
+
+  .header__hamburger__menu ul {
+    top: 110px;
+  }
+
+  .header__hamburger__menu .header__hamburger__menu--nonhover p {
+    margin-right: 0;
+  }
+
+  .header__hamburger__menu .header__hamburger__menu--nonhover a {
+    float: right;
+    margin-top: 40px;
+  }
+
+  .footer__copyright {
+    padding: 20px 0 0 0;
+    display: table;
+    width: 100%;
+  }
+
+  .footer__copyright .footer__copy__right,
+  .footer__copyright .footer__copy__left {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer__copyright .footer__copy__right {
+    display: table-header-group;
+  }
+
+  .footer__copyright .footer__copy__left {
+    display: table-footer-group;
+    background-color: #333333;
+  }
+  .footer__copyright .footer__copy__left p {
+    letter-spacing: 2px;
+  }
+
+  .footer__copyright .footer__copy__right > * {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    margin-top: 3px;
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    margin-top: 0px;
+  }
+
+  h1.top-content__main {
+    font-size: 50px;
+  }
+
+  h4.top-content__description {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .mid-content .mid-content__section p {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+  }
+
+  .jobs-content .jobs-content__intro p {
+    margin: 20% auto 8% auto;
+  }
+
+  .jobs-content .jobs-content__intro h4 {
+    font-size: 18px;
+    line-height: 2em;
+  }
+
+  .jobs-content .jobs-content__section .jobs__section__description,
+  .jobs-content .jobs-content__section .jobs__tags .jobs__tags__tag {
+    font-size: 14px;
+  }
+
+  .jobs-content .jobs-content__section .jobs__tags .jobs__tags__tag {
+    border: none;
+    padding: 5px;
+  }
+
+  .jobs-content .jobs__button {
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .description__container h2 {
+    font-size: 42px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+  }
+
+  .description__container p {
+    letter-spacing: 0px;
+    font-size: 14px;
+  }
+
+  .footer__section {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .footer__section h4 {
+    float: none;
+    text-align: center;
+  }
+
+  .footer__section__heading img {
+    margin: 4% 5% 0 0;
+    width: 6%;
+  }
+
+  .footer__section__heading {
+    margin: 40px auto 0 auto;
+  }
+
+  .footer__section__body {
+    margin-bottom: 75px;
+  }
+
+  .footer__section__heading img {
+    margin: 4% -6% 0 27%;
+  }
+
+  .footer__section h4 {
+    float: left;
+    text-align: center;
+  }
+
+  .footer__copyright .footer__copy__left p {
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 320px) {
+  .footer__section__heading img {
+    margin: 7% -1% 0 24%;
+  }
+}
